@@ -29,14 +29,11 @@ PRODUCT_COPY_FILES := \
 #    vendor/moto/droid2/proprietary/lib/hw/gralloc.omap3.so:obj/lib/hw/gralloc.omap3.so
 
 PRODUCT_COPY_FILES += \
-    vendor/moto/droid2/proprietary/app/FileManager.apk:/system/app/FileManager.apk \
     vendor/moto/droid2/proprietary/app/FMRadio.apk:/system/app/FMRadio.apk \
     vendor/moto/droid2/proprietary/app/FMRadioService.apk:/system/app/FMRadioService.apk \
     vendor/moto/droid2/proprietary/app/PhoneConfig.apk:/system/app/PhoneConfig.apk \
     vendor/moto/droid2/proprietary/app/ProgramMenu.apk:/system/app/ProgramMenu.apk \
     vendor/moto/droid2/proprietary/app/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk \
-    vendor/moto/droid2/proprietary/app/Torch.apk:/system/app/Torch.apk \
-    vendor/moto/droid2/proprietary/app/Usb.apk:/system/app/Usb.apk 
 
 # All the blobs necessary for droid2
 PRODUCT_COPY_FILES += \
@@ -148,6 +145,8 @@ PRODUCT_COPY_FILES += \
     vendor/moto/droid2/proprietary/lib/libmtp_jni.so:/system/lib/libmtp_jni.so \
     vendor/moto/droid2/proprietary/lib/libmtpstack.so:/system/lib/libmtpstack.so \
     vendor/moto/droid2/proprietary/lib/libnativedrm1.so:/system/lib/libnativedrm1.so \
+    vendor/moto/droid2/proprietary/lib/libOMX.TI.720P.Decoder.so:/system/lib/libOMX.TI.720P.Decoder.so \
+    vendor/moto/droid2/proprietary/lib/libOMX.TI.720P.Encoder.so:/system/lib/libOMX.TI.720P.Encoder.so \
     vendor/moto/droid2/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/moto/droid2/proprietary/lib/libpanorama.so:/system/lib/libpanorama.so \
     vendor/moto/droid2/proprietary/lib/libpanorama_jni.so:/system/lib/libpanorama_jni.so \
