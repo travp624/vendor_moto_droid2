@@ -37,7 +37,6 @@ PRODUCT_COPY_FILES += \
 # All the blobs necessary for droid2
 PRODUCT_COPY_FILES += \
     vendor/moto/droid2/proprietary/lib/libmoto_gps.so:/system/lib/libmoto_gps.so \
-    vendor/moto/droid2/proprietary/bin/Hostapd:/system/bin/Hostapd \
     vendor/moto/droid2/proprietary/bin/SaveBPVer:/system/bin/SaveBPVer \
     vendor/moto/droid2/proprietary/bin/akmd2:/system/bin/akmd2 \
     vendor/moto/droid2/proprietary/bin/ap_gain.bin:/system/bin/ap_gain.bin \
@@ -52,7 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/moto/droid2/proprietary/bin/dmt:/system/bin/dmt \
     vendor/moto/droid2/proprietary/bin/dund:/system/bin/dund \
     vendor/moto/droid2/proprietary/bin/ecckeyd:/system/bin/ecckeyd \
-    vendor/moto/droid2/proprietary/bin/fdisk:/system/bin/fdisk \
     vendor/moto/droid2/proprietary/bin/firewall.sh:/system/bin/firewall.sh \
     vendor/moto/droid2/proprietary/bin/fmradioserver:/system/bin/fmradioserver \
     vendor/moto/droid2/proprietary/bin/ftmipcd:/system/bin/ftmipcd \
@@ -166,6 +164,5 @@ PRODUCT_COPY_FILES += \
     vendor/moto/droid2/proprietary/lib/libFMRadio.so:system/lib/libFMRadio.so \
     vendor/moto/droid2/proprietary/lib/libfmradio_jni.so:system/lib/libfmradio_jni.so \
     vendor/moto/droid2/proprietary/lib/libfmradioplayer.so:system/lib/libfmradioplayer.so \
-    vendor/moto/droid2/proprietary/lib/hw/sensors.droid2.so:/system/lib/hw/sensors.droid2.so \
-    vendor/moto/droid2/proprietary/lib/hw/gps.droid2.so:/system/lib/hw/gps.droid2.so 
+    vendor/moto/droid2/proprietary/lib/hw/gps.droid2.so:/system/lib/hw/gps.droid2.so
 
